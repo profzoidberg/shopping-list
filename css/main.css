@@ -5,13 +5,15 @@ body {
 	background-image: url(https://images.unsplash.com/photo-1452251889946-8ff5ea7b27ab?crop=entropy&dpr=2&fit=crop&fm=jpg&h=700&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1200);
 	background-size: cover;	
 	background-repeat: no-repeat;
+	font-family: 'Just Me Again Down Here', cursive;
 }
 /* Masthead */
 .masthead {
 	background-color: #d7bf47;
-	opacity: 0.7;
+	opacity: 0.8;
 	color: #0b0000;
 	width: 100%;
+	border-bottom: 4px solid #d89d5c;
 }
 .title {
 	margin: 0 auto;
@@ -20,8 +22,7 @@ body {
 	display: inline-block;
 	list-style: none;
 }
-.masthead p {
-	font-family: 'Just Me Again Down Here', cursive;
+.masthead h1 {
 	font-size: 3em;
 	margin-top: 0;
 	margin-bottom: 16px;
@@ -30,4 +31,76 @@ body {
 .fa-cutlery {
 	font-size: 2em;
 	padding: 0 5em;
+}
+/* Body */
+.quote {
+	width: 33%;
+	background-color: #a74511;
+	opacity: 0.9;
+	margin: 0 auto;
+}
+.quote p {
+	font-size: 2em;
+	text-align: center;
+	color: #0b0000;
+	padding: 1em 1em ;
+	margin-top: 3em;
+}
+.input {
+	width: 33%;
+	background-color: #a74511;
+	opacity: 0.9;
+	margin: 0 auto;
+}
+.input p {
+	font-size: 1.5em;
+	text-align: center;
+	color: #0b0000;
+	padding: 0 1em;
+	margin-top: 3em;
+	margin-bottom: 12px;
+}
+/* Fields */
+.input .enter, .input .add {
+	display: inline-block;
+	background-color: #561B04;
+}
+.input .enter {
+	height: 50px;
+	width: 100px;
+	margin-left: 15%;
+}
+.input .add {
+	height: 25px;
+	width: 100px;
+	margin-left: 25%;
+	margin-bottom: 10px;
+}
+/* The List */
+.content .list {
+	width: 33%;
+	background-color: #a74511;
+	opacity: 0.9;
+	margin: 0 auto;
+}
+.list p {
+	font-size: 2em;
+	text-align: center;
+	color: #0b0000;
+	padding: 0 1em;
+	margin-top: 3em;
+	margin-bottom: 0;
+}
+.list ul {
+	margin-top: 0;
+}
+.list li {
+	font-size: 1.5em;
+	color: #0b0000;
+}
+.list .list-complete {
+	margin: 0 auto;
+	height: 50px;
+	width: 100px;
+	background-color: #561B04;
 }
