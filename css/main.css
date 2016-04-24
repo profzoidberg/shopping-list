@@ -49,14 +49,13 @@ body {
 	background-color: #a74511;
 	opacity: 0.9;
 	margin: 0 auto;
+	border-bottom: 4px solid #d89d5c;
 }
 .input p {
 	font-size: 2em;
 	text-align: center;
 	color: #0b0000;
 	padding: 0 1em;
-	margin-top: 3em;
-	margin-bottom: 12px;
 }
 /* Fields */
 .input .enter, .input .add {
@@ -86,8 +85,7 @@ body {
 	text-align: center;
 	color: #0b0000;
 	padding: 0 1em;
-	margin-top: 2em;
-	margin-bottom: 0;
+	margin: 0 auto;
 }
 .list ul {
 	margin-top: 0;
@@ -101,30 +99,6 @@ body {
 	height: 50px;
 	width: 100px;
 	background-color: #561B04;
-}
-/* Footer */
-.footer {
-	background-color: #d7bf47;
-	opacity: 0.9;
-	border-top: 4px solid #d89d5c;
-	text-align: center;
-	font-size: 2em;
-	margin-top: 3em;
-	padding: 0.5em 0.5em;
-}
-.footer p {
-	margin: 0 auto;
-	padding: 10px 0;
-}
-.footer a {
-	text-decoration: none;
-	color: #0b0000;
-}
-a:hover {
-	color: #d89d5c
-}
-a:visited {
-	color: #d89d5c
 }
 /* Media Queries */
 @media only screen and (max-width: 1135px) {
