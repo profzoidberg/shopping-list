@@ -5,14 +5,13 @@ body {
 	background-image: url(https://images.unsplash.com/photo-1452251889946-8ff5ea7b27ab?crop=entropy&dpr=2&fit=crop&fm=jpg&h=700&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1200);
 	background-size: cover;	
 	background-repeat: no-repeat;
+	color: #0b0000;
 	font-family: 'Just Me Again Down Here', cursive;
 }
 /* Masthead */
 .masthead {
 	background-color: #d7bf47;
-	opacity: 0.8;
-	color: #0b0000;
-	width: 100%;
+	opacity: 0.9;
 	border-bottom: 4px solid #d89d5c;
 }
 .title {
@@ -24,28 +23,22 @@ body {
 }
 .masthead p {
 	font-size: 3em;
-	margin-top: 0;
-	margin-bottom: 16px;
-	padding-left: 5em;
+	font-family: 'Patrick Hand SC', cursive;
+	margin: 0 auto;
+}
+.masthead .quote p {
+	font-size: 2em;
+	text-align: center;
+	padding-bottom: 5px;
+	margin: 0 auto;
+	font-family: 'Just Me Again Down Here', cursive;
 }
 .fa-cutlery {
 	font-size: 2em;
 	padding: 0 4em;
 }
+
 /* Body */
-.quote {
-	width: 100%;
-	background-color: #a74511;
-	opacity: 0.9;
-	margin: 0 auto;
-	border-bottom: 4px solid #d89d5c;
-}
-.quote p {
-	font-size: 2em;
-	text-align: center;
-	color: #0b0000;
-	margin: 0 auto;
-}
 .input {
 	width: 33%;
 	background-color: #a74511;
@@ -53,7 +46,7 @@ body {
 	margin: 0 auto;
 }
 .input p {
-	font-size: 1.5em;
+	font-size: 2em;
 	text-align: center;
 	color: #0b0000;
 	padding: 0 1em;
@@ -73,7 +66,7 @@ body {
 .input .add {
 	height: 25px;
 	width: 100px;
-	margin-left: 25%;
+	margin-left: 20%;
 	margin-bottom: 10px;
 }
 /* The List */
@@ -88,7 +81,7 @@ body {
 	text-align: center;
 	color: #0b0000;
 	padding: 0 1em;
-	margin-top: 3em;
+	margin-top: 2em;
 	margin-bottom: 0;
 }
 .list ul {
@@ -103,4 +96,27 @@ body {
 	height: 50px;
 	width: 100px;
 	background-color: #561B04;
+}
+/* Footer */
+.footer {
+	background-color: #d7bf47;
+	opacity: 0.9;
+	border-top: 4px solid #d89d5c;
+	text-align: center;
+	font-size: 2em;
+	margin-top: 3em;
+}
+.footer p {
+	margin: 0 auto;
+	padding: 10px 0;
+}
+.footer a {
+	text-decoration: none;
+	color: #0b0000;
+}
+a:hover {
+	color: #d89d5c
+}
+a:visited {
+	color: #d89d5c
 }
