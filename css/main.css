@@ -34,17 +34,17 @@ body {
 }
 /* Body */
 .quote {
-	width: 33%;
+	width: 100%;
 	background-color: #a74511;
 	opacity: 0.9;
 	margin: 0 auto;
+	border-bottom: 4px solid #d89d5c;
 }
 .quote p {
 	font-size: 2em;
 	text-align: center;
 	color: #0b0000;
-	padding: 1em 1em ;
-	margin-top: 3em;
+	margin: 0 auto;
 }
 .input {
 	width: 33%;
