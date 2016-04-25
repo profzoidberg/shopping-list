@@ -8,6 +8,7 @@ body {
 	background-image: url(https://images.unsplash.com/photo-1452251889946-8ff5ea7b27ab?crop=entropy&dpr=2&fit=crop&fm=jpg&h=700&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1200);
 	background-size: cover;	
 	background-repeat: no-repeat;
+	height: 100vh;
 	color: #0b0000;
 	font-family: 'Just Me Again Down Here', cursive;
 }
@@ -15,12 +16,13 @@ body {
 .masthead {
 	background-color: #d7bf47;
 	opacity: 0.9;
-	border-bottom: 4px solid #d89d5c;
+	border-bottom: 2px solid #d89d5c;
+	width: 100%;
 }
 .title {
-	margin: 0 auto;
 	text-align: center;
 	padding: 0;
+	margin: 0 auto;
 }
 .title li {
 	display: inline-block;
@@ -34,7 +36,6 @@ body {
 .masthead .quote p {
 	font-size: 2em;
 	text-align: center;
-	padding-bottom: 5px;
 	margin: 0 auto;
 	font-family: 'Just Me Again Down Here', cursive;
 }
@@ -49,7 +50,7 @@ body {
 	background-color: #a74511;
 	opacity: 0.9;
 	margin: 0 auto;
-	border-bottom: 4px solid #d89d5c;
+	border-bottom: 2px solid #d89d5c;
 }
 .input p {
 	font-size: 2em;
@@ -57,30 +58,27 @@ body {
 	color: #0b0000;
 	padding: 0 1em;
 }
-/* Fields */
-.input .enter, .input .add {
-	display: inline-block;
-	background-color: #561B04;
+/* Text Input and Add Button */
+input {
+	background-color: #d89d5c;
 }
-.input .enter {
-	height: 50px;
-	width: 100px;
-	margin-left: 15%;
+.add {
+	background-color: #d89d5c;
+	text-align: center;
+	width: 33%;
+	margin: 0 auto;
 }
-.input .add {
-	height: 25px;
-	width: 100px;
-	margin-left: 15%;
-	margin-bottom: 10px;
+.add:hover {
+	cursor: pointer;
 }
 /* The List */
-.content .list {
+.content .shopping-list {
 	width: 33%;
 	background-color: #a74511;
 	opacity: 0.9;
 	margin: 0 auto;
 }
-.list p {
+.shopping-list p {
 	font-size: 2em;
 	text-align: center;
 	color: #0b0000;

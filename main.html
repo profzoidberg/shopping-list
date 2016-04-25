@@ -9,6 +9,8 @@
 	<link rel="shortcut icon" href="images/favicon-cutlery.ico">
 	<link href='https://fonts.googleapis.com/css?family=Patrick+Hand+SC|Just+Me+Again+Down+Here' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/main.css">
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="js/app.js"></script>
 </head>
 <body>
 	<header class="masthead">
@@ -23,18 +25,16 @@
 	</header>
 	<section class="content">
 		<div class="input">
-			<p>Simply input the item you want to add to the list:</p>
-			<div class="enter"></div>
-			<div class="add"></div>
+			<p>Simply input the item you want to add to the list:<input type="text" id="text"/></p>
+			<div class="add">
+				<p>Add</p>
+			</div>
 			<br>
 			<br>
 		</div>
-		<div class="list">
+		<div class="shopping-list">
 			<p>The List</p>
-			<ul>
-				<li>Coffee</li>
-				<li>Beer</li>
-				<li>Chicken</li>
+			<ul class="list">
 			</ul>
 			<div class="list-complete"></div>
 			<br>
