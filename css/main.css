@@ -74,9 +74,6 @@ input {
 	text-align: center;
 	font-size: 1.5em;
 }
-.add:hover {
-	cursor: pointer;
-}
 /* The List */
 .content .shopping-list {
 	width: 33%;
@@ -112,6 +109,9 @@ input {
 }
 .unsplash a, .unsplash p {
 	text-decoration: none;
+	color: #d89d5c;
+}
+a:hover {
 	color: #a74511;
 }
 /* Media Queries */
