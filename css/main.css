@@ -61,12 +61,18 @@ body {
 /* Text Input and Add Button */
 input {
 	background-color: #d89d5c;
+	height: 1em;
+    display: block;
+    margin: 0 auto;
 }
 .add {
 	background-color: #d89d5c;
-	text-align: center;
-	width: 33%;
+	height: 2em;
+	width: 4em;
+	display: block;
 	margin: 0 auto;
+	text-align: center;
+	font-size: 1.5em;
 }
 .add:hover {
 	cursor: pointer;
