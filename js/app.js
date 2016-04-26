@@ -14,8 +14,4 @@ $(document).ready(function(){
 		var input=$('#text').val();
 		$('.list').append("<li> "+input+" </li>");
 	})
-	.on('click', function(){
-		$('#text').val("");
-		}
-	})
 });
