@@ -1,12 +1,21 @@
 $(document).ready(function(){
 	$('#text').keydown(function(e){
 		if (e.keyCode === 13) {
-		$('#text').val();
-		$('.list').append("<li> "+$('#text').val()+" </li>");
+		var input=$('#text').val();
+		$('.list').append("<li> "+input+" </li>");
 		}
 	})
+	.keyup(function(e){
+		if (e.keyCode === 13) {
+		$('#text').val("");
+		}
+	});
 	$(".add").on('click', function(){
-		$('#text').val();
-		$('.list').append("<li> "+$('#text').val()+" </li>");
+		var input=$('#text').val();
+		$('.list').append("<li> "+input+" </li>");
+	})
+	.on('click', function(){
+		$('#text').val("");
+		}
 	})
 });
