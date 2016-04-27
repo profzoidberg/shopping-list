@@ -1,17 +1,20 @@
 $(document).ready(function(){
 	$('#text').keydown(function(e){
 		if (e.keyCode === 13) {
-		var input=$('#text').val();
-		$('.list').append("<li> "+input+" </li>");
-		}
-	})
-	.keyup(function(e){
-		if (e.keyCode === 13) {
-		$('#text').val("");
+			addItemToList();
 		}
 	});
-	$(".add").on('click', function(){
-		var input=$('#text').val();
-		$('.list').append("<li> "+input+" </li>");
+	$('.add').click(function(){
+		addItemToList();
 	})
+	function addItemToList(){
+		var input=$('#text').val();
+		if (input !== "") { 
+			$('.list').append('<li><input type="checkbox" class="checkbox"/> '+input+' </li>');
+			$('#text').val("");
+		}
+	}
+	$('.checkbox').click(function(){	
+		alert('hello');
+	});
 });

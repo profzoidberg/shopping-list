@@ -58,11 +58,10 @@ body {
 	color: #0b0000;
 	padding: 0 1em;
 }
-/* Text Input and Add Button */
+/* Text Input, Add Button, Checkbox */
 input {
 	background-color: #d89d5c;
 	height: 1em;
-    display: block;
     margin: 0 auto;
 }
 .add {
@@ -90,10 +89,12 @@ input {
 }
 .list ul {
 	margin-top: 0;
+	float: left;
 }
 .list li {
 	font-size: 1.5em;
 	color: #0b0000;
+	list-style-type: none;
 }
 .list .list-complete {
 	margin: 0 auto;
