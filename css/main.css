@@ -107,16 +107,16 @@ input {
 	font-size: 1.5em;
 }
 .unsplash {
-	position:absolute;
-    bottom:0;
-    right:10px;
+	float: right;
+   	margin-right: 15px;
     font-size: 1.5em;
+    margin-top: 0;
 }
 .unsplash a, .unsplash p {
 	text-decoration: none;
-	color: #d89d5c;
+	color: #0b0000;
 }
 a:hover {
-	color: #a74511;
+	color: #d89d5c;
 }
 /* Media Queries */
