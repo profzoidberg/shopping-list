@@ -8,7 +8,8 @@ body {
 	background-image: url(https://images.unsplash.com/photo-1452251889946-8ff5ea7b27ab?crop=entropy&dpr=2&fit=crop&fm=jpg&h=700&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1200);
 	background-size: cover;	
 	background-repeat: no-repeat;
-	height: 100vh;
+	height: 100%;
+	width: 100%;
 	color: #0b0000;
 	font-family: 'Just Me Again Down Here', cursive;
 }
@@ -96,11 +97,14 @@ input {
 	color: #0b0000;
 	list-style-type: none;
 }
-.list .list-complete {
+.list-complete {
+	background-color: #d89d5c;
+	height: 2em;
+	width: 4em;
+	display: block;
 	margin: 0 auto;
-	height: 50px;
-	width: 100px;
-	background-color: #561B04;
+	text-align: center;
+	font-size: 1.5em;
 }
 .unsplash {
 	position:absolute;
@@ -116,54 +120,3 @@ a:hover {
 	color: #a74511;
 }
 /* Media Queries */
-@media only screen and (max-width: 1135px) {
-	.fa-cutlery {
-		font-size: 2em;
-		padding: 0 1.5em;
-	}
-}
-@media only screen and (max-width: 940px) {
-	.fa-cutlery {
-		font-size: 2em;
-		padding: 0 2em;
-	}
-	.masthead p {
-		font-size: 2.5em;
-	}
-}
-@media only screen and (max-width: 890px) {
-	.fa-cutlery {
-		font-size: 1.5em;
-		padding: 0 2em;
-	}
-	.masthead p {
-		font-size: 2.5em;
-	}
-	.masthead .quote p, .input p, .list p, .footer p {
-		font-size: 1em;
-	}
-}
-@media only screen and (max-width: 815px) {
-	.fa-cutlery {
-		font-size: 1em;
-		padding: 0 2em;
-	}
-	.masthead p {
-		font-size: 2em;
-	}
-	.masthead .quote p, .input p, .list p, .footer p {
-		font-size: 1em;
-	}
-}
-@media only screen and (max-width: 630px) {
-	.fa-cutlery {
-		font-size: 0.75em;
-		padding: 0 1em;
-	}
-	.masthead p {
-		font-size: 1.25em;
-	}
-	.masthead .quote p, .input p, .list p, .footer p {
-		font-size: 0.5em;
-	}
-}

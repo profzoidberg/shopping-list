@@ -10,11 +10,16 @@ $(document).ready(function(){
 	function addItemToList(){
 		var input=$('#text').val();
 		if (input !== "") { 
-			$('.list').append('<li><input type="checkbox" class="checkbox"/> '+input+' </li>');
+			$('.list').append('<li><input type="checkbox" class ".box"/> '+input+' </li>');
 			$('#text').val("");
 		}
 	}
-	$('.checkbox').click(function(){	
-		alert('hello');
-	});
+	$(document).on('change', 'input[type="checkbox"]:checked',function(){
+            if (this.checked){
+            	$('.list li').css({'color':'grey', 'font-style': 'italic'});
+            }           
+    });    
+  	$('.list-complete').click(function(){
+  		$('.list li').empty();
+  	});
 });
