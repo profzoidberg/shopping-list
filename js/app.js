@@ -10,15 +10,15 @@ $(document).ready(function(){
 	function addItemToList(){
 		var input=$('#text').val();
 		if (input !== "") { 
-			$('.list').append('<li><input type="checkbox" class ".box"/> '+input+' </li>');
+			$('.list').append('<li><input type="checkbox" id="checkbox"/> '+input+' </li>');
 			$('#text').val("");
 		}
 	}
-	$(document).on('change', 'input[type="checkbox"]:checked',function(){
-            if (this.checked){
-            	$('.list li').css({'color':'grey', 'font-style': 'italic'});
-            }           
-    });    
+	$('input[type="checkbox"]:checked').on('change', function(){
+        if (this.checked){
+            $(this).css({'color':'grey', 'font-style': 'italic'});
+        }           
+    });     
   	$('.list-complete').click(function(){
   		$('.list li').empty();
   	});

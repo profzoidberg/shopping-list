@@ -118,54 +118,43 @@ input {
 a:hover {
 	color: #d89d5c;
 }
+.item {
+	color: #d89d5c;
+}
 /* Media Queries */
 @media only screen and (max-width: 1135px) {
- +	.fa-cutlery {
- +		font-size: 2em;
- +		padding: 0 1.5em;
- +	}
- +}
- +@media only screen and (max-width: 940px) {
- +	.fa-cutlery {
- +		font-size: 2em;
- +		padding: 0 2em;
- +	}
- +	.masthead p {
- +		font-size: 2.5em;
- +	}
- +}
- +@media only screen and (max-width: 890px) {
- +	.fa-cutlery {
- +		font-size: 1.5em;
- +		padding: 0 2em;
- +	}
- +	.masthead p {
- +		font-size: 2.5em;
- +	}
- +	.masthead .quote p, .input p, .list p, .footer p {
- +		font-size: 1em;
- +	}
- +}
- +@media only screen and (max-width: 815px) {
- +	.fa-cutlery {
- +		font-size: 1em;
- 		padding: 0 2em;
- +	}
- +	.masthead p {
- +		font-size: 2em;
- +	}
- +	.masthead .quote p, .input p, .list p, .footer p {
- +		font-size: 1em;
- +	}
- +}
- +@media only screen and (max-width: 630px) {
- +	.fa-cutlery {
- +		font-size: 0.75em;
- +		padding: 0 1em;
- +	}
- +	.masthead p {
- +		font-size: 1.25em;
- +	}
- +	.masthead .quote p, .input p, .list p, .footer p {
- +		font-size: 0.5em;
- +	}
+ 	.fa-cutlery {
+ 		padding: 0 25px;
+ 	}
+ }
+@media only screen and (max-width: 835px) {
+ 	.masthead p {
+		font-size: 2em;
+ 	}
+ 	.masthead .quote p .input p {
+ 		font-size: 1.33em;
+ 	}
+ 	.fa-cutlery {
+ 		padding: 0 10px;
+ 	}
+ }
+ @media only screen and (max-width: 700px) {
+ 	input {
+ 		height: 1em;
+ 		width: 3em;
+ 	}
+ 	.input, .content .shopping-list {
+ 		width: 45%;
+ 	}
+ }
+ @media only screen and (max-width: 550px) {
+ 	.shopping-list p, .input p, .list li{
+ 		font-size: 1.33em;
+ 	}
+ 	.fa-cutlery {
+ 		font-size: 1em;
+ 	}
+ 	.add, .list-complete {
+ 		font-size: 1em;
+ 	}
+}
