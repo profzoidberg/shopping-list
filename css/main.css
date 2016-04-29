@@ -155,11 +155,11 @@ a:hover {
  	}
  }
  @media only screen and (max-width: 550px) {
- 	.shopping-list p, .input p, .list li {
+ 	.shopping-list p, .list li {
  		font-size: 1.33em;
  	}
  	.masthead .quote p {
- 		font-size: 0.5;
+ 		font-size: 0.5em;
  	}
  	.fa-cutlery {
  		display: none;
