@@ -21,11 +21,11 @@ $(document).ready(function(){
        		$(this).css({'color': 'black', 'font-style': 'normal'});
        	}
     })
-    $('.list').on('click','li', function(){
-    	if ($('.button').is('clicked')); {
-    		$(this).empty();
-    	}
-    });
+    // $('.list').on('click','li', function(){
+    // 	if ($('.button').is('clicked')); {
+    // 		$(this).empty();
+    // 	}
+    // });
   	$('.list-complete').click(function(){
   		$('.list li').empty();
   	});
