@@ -10,7 +10,7 @@ $(document).ready(function(){
 	function addItemToList(){
 		var input=$('#text').val();
 		if (input !== "") { 
-			$('.list').append('<li><input type="checkbox"/> '+input+' <button class="button">Done</button> </li>');
+			$('.list').append('<li><input type="checkbox"/> '+input+' </li>');
 			$('#text').val("");
 		}
 	}
@@ -21,11 +21,6 @@ $(document).ready(function(){
        		$(this).css({'color': 'black', 'font-style': 'normal'});
        	}
     })
-    // $('.list').on('click','li', function(){
-    // 	if ($('.button').is('clicked')); {
-    // 		$(this).empty();
-    // 	}
-    // });
   	$('.list-complete').click(function(){
   		$('.list li').empty();
   	});
