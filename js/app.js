@@ -14,8 +14,14 @@ $(document).ready(function(){
 			$('#text').val("");
 		}
 	}
-	$('.list').on('click','li',function(){
-       $(this).css({'color':'gray', 'font-style': 'italic'});
+	$('.list').on('click','li', function(){ 
+		console.log( $(':checkbox').is(':checked') )
+       if ($(':checkbox').is(':checked')) {
+       		console.log('checked')
+       		$(this).css({'color':'gray', 'font-style': 'italic'});
+       	} else { 
+       		$(this).css({'color': 'black', 'font-style': 'normal'});
+       	}
     })
   	$('.list-complete').click(function(){
   		$('.list li').empty();

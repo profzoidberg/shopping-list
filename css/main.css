@@ -9,7 +9,6 @@ body {
 	background-size: cover;	
 	background-repeat: no-repeat;
 	height: 100%;
-	width: 100%;
 	color: #0b0000;
 	font-family: 'Just Me Again Down Here', cursive;
 }
@@ -107,9 +106,13 @@ input {
 }
 .unsplash {
 	float: right;
-   	margin-right: 15px;
+   	padding: 0 15px;
     font-size: 1.5em;
     margin-top: 0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(255,255,255,0.7)
 }
 .unsplash a, .unsplash p {
 	text-decoration: none;
@@ -137,6 +140,10 @@ a:hover {
  	.fa-cutlery {
  		padding: 0 10px;
  	}
+ 	.unsplash {
+	padding: 0 10px;
+    font-size: 1em;
+	}
  }
  @media only screen and (max-width: 700px) {
  	input {
@@ -148,13 +155,17 @@ a:hover {
  	}
  }
  @media only screen and (max-width: 550px) {
- 	.shopping-list p, .input p, .list li{
+ 	.shopping-list p, .input p, .list li {
  		font-size: 1.33em;
  	}
  	.fa-cutlery {
- 		font-size: 1em;
+ 		display: none;
  	}
  	.add, .list-complete {
  		font-size: 1em;
  	}
+ 	.unsplash {
+	padding: 0 5px;
+    font-size: 0.5em;
+	}
 }
