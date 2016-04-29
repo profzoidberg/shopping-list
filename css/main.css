@@ -6,10 +6,9 @@ html {
 }
 body {
 	background-image: url(https://images.unsplash.com/photo-1452251889946-8ff5ea7b27ab?crop=entropy&dpr=2&fit=crop&fm=jpg&h=700&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1200);
-	background-size: cover;	
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	height: 100%;
+	background-size: cover;
 	color: #0b0000;
 	font-family: 'Just Me Again Down Here', cursive;
 }
@@ -57,6 +56,7 @@ body {
 	font-size: 2em;
 	text-align: center;
 	color: #0b0000;
+	padding: 0 5px;
 }
 /* Text Input, Add Button, Checkbox */
 input {
@@ -133,7 +133,7 @@ a:hover {
  	.masthead p {
 		font-size: 2em;
  	}
- 	.masthead .quote p, .input p {
+ 	.masthead .quote p, .input p, .shopping-list p {
  		font-size: 1.33em;
  	}
  	.fa-cutlery {
@@ -150,13 +150,17 @@ a:hover {
  		width: 3em;
  	}
  	.input, .content .shopping-list {
- 		width: 45%;
+ 		width: 60%;
  	}
+ 	.list li {
+ 		font-size: 1em;
+ 	}
+ 	.unsplash {
+		padding: 0 5px;
+    	font-size: 10px;
+	}
  }
  @media only screen and (max-width: 550px) {
- 	.shopping-list p, .list li {
- 		font-size: 1.33em;
- 	}
  	.masthead .quote p {
  		font-size: 1em;
  		margin-bottom: 10px;
@@ -168,10 +172,6 @@ a:hover {
  	.add, .list-complete {
  		font-size: 1em;
  	}
- 	.unsplash {
-		padding: 0 5px;
-    	font-size: 1em;
-	}
 	.title ul {
 		padding: 0;
 	}
