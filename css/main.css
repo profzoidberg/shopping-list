@@ -64,6 +64,9 @@ input {
 	height: 1em;
     margin: 0 auto;
 }
+#text {
+	 display: block;
+}
 .add {
 	background-color: #d89d5c;
 	height: 2em;
@@ -105,6 +108,10 @@ input {
 	text-align: center;
 	font-size: 1.5em;
 }
+.list li button {
+	background-color: #d89d5c;
+	font-size: 0.5em;
+}
 .unsplash {
    	padding: 0 15px;
     font-size: 1.5em;
@@ -139,16 +146,15 @@ a:hover {
  	.fa-cutlery {
  		padding: 0 10px;
  	}
+ 	input {
+ 		display: block;
+ 	}
  	.unsplash {
 	padding: 0 10px;
     font-size: 1em;
 	}
  }
  @media only screen and (max-width: 700px) {
- 	input {
- 		height: 1em;
- 		width: 3em;
- 	}
  	.input, .content .shopping-list {
  		width: 60%;
  	}
@@ -160,7 +166,7 @@ a:hover {
     	font-size: 10px;
 	}
  }
- @media only screen and (max-width: 550px) {
+ @media only screen and (max-width: 570px) {
  	.masthead .quote p {
  		font-size: 1em;
  		margin-bottom: 10px;
@@ -175,4 +181,8 @@ a:hover {
 	.title ul {
 		padding: 0;
 	}
+	input {
+ 		height: 1em;
+ 		width: 3em;
+ 	}
 }
