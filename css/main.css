@@ -134,7 +134,7 @@ a:hover {
  	.masthead p {
 		font-size: 2em;
  	}
- 	.masthead .quote p .input p {
+ 	.masthead .quote p, .input p {
  		font-size: 1.33em;
  	}
  	.fa-cutlery {
@@ -160,15 +160,20 @@ a:hover {
  	}
  	.masthead .quote p {
  		font-size: 1em;
+ 		margin-bottom: 10px;
  	}
  	.fa-cutlery {
  		display: none;
+ 		font-size: 0em;
  	}
  	.add, .list-complete {
  		font-size: 1em;
  	}
  	.unsplash {
-	padding: 0 5px;
-    font-size: 0.5em;
+		padding: 0 5px;
+    	font-size: 1em;
+	}
+	.title ul {
+		padding: 0;
 	}
 }
