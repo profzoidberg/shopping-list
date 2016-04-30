@@ -9,6 +9,7 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
+	height: 100%;
 	color: #0b0000;
 	font-family: 'Just Me Again Down Here', cursive;
 }
@@ -146,7 +147,7 @@ a:hover {
  	.fa-cutlery {
  		padding: 0 10px;
  	}
- 	input {
+ 	input #text {
  		display: block;
  	}
  	.unsplash {
@@ -183,6 +184,6 @@ a:hover {
 	}
 	input {
  		height: 1em;
- 		width: 3em;
+ 		width: 5em;
  	}
 }
