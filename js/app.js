@@ -10,7 +10,7 @@ $(document).ready(function(){
 	function addItemToList(){
 		var input=$('#text').val();
 		if (input !== "") { 
-			$('.list').append('<li><input type="checkbox"/> '+input+' </li>');
+			$('.list').append('<li><input type="checkbox"/> '+input+' <button class="delete"><i class="fa fa-trash" aria-hidden="true"></i></button></li>');
 			$('#text').val("");
 		}
 	}
@@ -20,8 +20,11 @@ $(document).ready(function(){
        	} else { 
        		$(this).css({'color': 'black', 'font-style': 'normal'});
        	}
-    })
+    });
+    $('.list').on('click','.delete', function(){
+   			$(this).closest('li').remove();
+    });
   	$('.list-complete').click(function(){
-  		$('.list li').empty();
-  	});
+  		$('.list li').remove();
+  		  	});
 });

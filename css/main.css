@@ -62,7 +62,7 @@ body {
 /* Text Input, Add Button, Checkbox */
 input {
 	background-color: #d89d5c;
-	height: 1em;
+	height: auto;
     margin: 0 auto;
 }
 #text {
@@ -99,6 +99,7 @@ input {
 	font-size: 1.5em;
 	color: #0b0000;
 	list-style-type: none;
+	word-break: break-all;
 }
 .list-complete {
 	background-color: #d89d5c;
@@ -109,9 +110,13 @@ input {
 	text-align: center;
 	font-size: 1.5em;
 }
-.list li button {
+.delete {
 	background-color: #d89d5c;
 	font-size: 0.5em;
+	border-radius: 25%;
+}
+.delete:hover {
+	color: white;
 }
 .unsplash {
    	padding: 0 15px;
